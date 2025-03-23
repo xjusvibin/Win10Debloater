@@ -54,6 +54,37 @@
 #
 # For optimal results, run the script before configuring a user profile to prevent leftover apps or broken Start menu tiles.
 #
+# Source Code
+#
+# This repository contains PowerShell scripts for debloating and optimizing Windows 10. The scripts are organized into main executable files and a subfolder with modular components.
+#
+# Main Scripts
+# - `Windows10Debloater.ps1`: Interactive script with command-line prompts to remove bloatware, disable telemetry, and adjust system settings. Suitable for manual execution with user input.
+# - `Windows10DebloaterGUI.ps1`: Graphical user interface version with buttons for debloating, privacy settings, and reverting changes. Designed for users preferring a visual interface.
+# - `Windows10SysPrepDebloater.ps1`: Silent script with optional parameters (`-SysPrep`, `-Debloat`, `-Privacy`) for automated debloating during system deployment or sysprep processes.
+#
+# Component Scripts
+# The `ComponentScripts` subfolder contains individual PowerShell scripts that perform specific tasks. These are used by the main scripts or can be run independently:
+# - `Clear Last Used Files and Folders.ps1`: Clears recent files and folders from Explorer history.
+# - `Debloat Windows`: Removes pre-installed Windows 10 applications based on a predefined list.
+# - `Disable Cortana`: Disables Cortana and its search integration.
+# - `Disable Last Used Files and Folders View.ps1`: Hides recent files and folders in Explorer.
+# - `Enable Cortana`: Re-enables Cortana functionality.
+# - `Enable Edge PDF`: Restores Edge as the default PDF viewer.
+# - `Fix Whitelisted Apps`: Reinstalls whitelisted apps if removed unintentionally.
+# - `Protect Privacy`: Modifies registry settings to reduce telemetry and enhance privacy.
+# - `Remove Bloatware RegKeys`: Deletes registry keys associated with removed bloatware.
+# - `Revert Changes`: Restores removed apps and default settings.
+# - `Set Explorers LaunchTo Computer.ps1`: Configures Explorer to open to "This PC" by default.
+# - `Stop Edge PDF`: Prevents Edge from being the default PDF viewer.
+# - `Uninstall OneDrive`: Removes OneDrive and its components.
+# - `Unpin Start`: Unpins all tiles from the Start menu.
+#
+# Usage Notes
+# - Main scripts require administrative privileges to function correctly.
+# - Component scripts can be imported into custom workflows or run standalone with appropriate permissions.
+# - File paths and script interactions assume execution from the repository root unless specified otherwise.
+#
 # Registry Keys Removed
 #
 # The following registry keys associated with removed applications are deleted:
