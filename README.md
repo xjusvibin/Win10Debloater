@@ -202,3 +202,12 @@
 # - [`Stop Edge PDF`](./ComponentScripts/Stop%20Edge%20PDF): Prevents Edge from being the default PDF viewer.
 # - [`Uninstall OneDrive`](./ComponentScripts/Uninstall%20OneDrive): Removes OneDrive and its components.
 # - [`Unpin Start`](./ComponentScripts/Unpin%20Start): Unpins all tiles from the Start menu.
+## Authors
+
+- [@xjusvibin](https://github.com/xjusvibin)
+
+
+## Acknowledgements
+
+ - [AI Code Generation](https://grok.com)
+
