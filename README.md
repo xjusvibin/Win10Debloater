@@ -209,5 +209,5 @@
 
 ## Acknowledgements
 
- - [AI Code Generation](https://grok.com)
+ - [AI Code Generation Assistance](https://grok.com)
 
